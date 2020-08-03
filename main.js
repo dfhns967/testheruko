@@ -116,24 +116,6 @@ message.channel.send("#rep "+"<@" + myid + ">")
   }
 });
 
-client6.on('message', message => {
-  if (message.content === prefix+'d6') {
-message.channel.send('#daily')
-  }
-  if(message.content === prefix+'c6'){
-message.channel.send('#credits')
-  }
-  if (message.content === prefix+'p6') {
-message.channel.send('#profile')
-  }
-  if(message.content === prefix+'r6'){
-message.channel.send("#rep "+"<@" + myid + ">")
-  }
-  if(message.content.startsWith(prefix+'s6')) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
 
 
 //✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠
@@ -713,119 +695,6 @@ if (message.content === prefix + 'fast 10k') {
 
 //??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
-client6.on('message', message => {
-if (message.content === prefix + 'fast 1k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 1000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 2k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 2000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 3k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 3000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 4k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 4000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 5k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 5000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 6k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 6000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 7k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 7000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 8k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 8000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 9k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-if (message.content === prefix + 'fast 10k') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 10000; x++) {
-        message.channel.send(`** --> **[ " ${x} " ]** <-- **`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
-
 
 //✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠
 
@@ -980,35 +849,6 @@ if (message.content === prefix+'slow') {
 }
 });
 
-client6.on('message', message => {
-if (message.content === prefix+'slow') {
-        let letters = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789".split("");
-        let spaces = " ".repeat(10);
-        let last = "";
-        let messages = 0;
- 
-        setInterval(() => {
-            let str = "";
-            let num = Math.floor(Math.random() * 10);
-            for(let i = 0; i < num; i++) {
-                str += letters[Math.floor(Math.random() * letters.length)];
- 
-                if(i === num - 1) {
-                    if(last === "") {
-                        messages += 1;
-                        last = `${str} ${spaces.slice(str.length + 1)}`;
-                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
-                    } else {
-                        messages += 1;
-                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
-                        last = spaced;
-                        return message.channel.send(spaced);
-                    }
-                }
-            }
-        }, 6000);
-}
-});
 
 
 //✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠
@@ -1049,12 +889,6 @@ client5.on("message", async message => {
   }
 })
 
-client6.on("message", async message => {
-  if(message.content === prefix + "stop") {
-    await cmd.run("refresh")
-    await message.channel.send("Bot Stoped")
-  }
-})
 
 
 //✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠
@@ -1087,12 +921,6 @@ client4.on('message', message => {
 client5.on('message', message => {
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``5`` ")
-    }
-});
-
-client6.on('message', message => {
-    if(message.content === prefix+'number'){
-        message.channel.send(" My Token Is ``6`` ")
     }
 });
 
