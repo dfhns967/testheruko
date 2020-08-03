@@ -13,11 +13,11 @@ const client6 = new Discord.Client():
 //✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠
 
 
-client.login(process.env.tok0);
-client2.login(process.env.tok1);
-client3.login(process.env.tok2);
-client4.login(process.env.tok3);
-client5.login(process.env.tok4);
+client.login(process.env.TOK0);
+client2.login(process.env.TOK1);
+client3.login(process.env.TOK2);
+client4.login(process.env.TOK3);
+client5.login(process.env.TOK4);
 client6.login();
 
 
