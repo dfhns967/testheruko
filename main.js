@@ -220,7 +220,7 @@ if (message.content === prefix + 'fast 9k') {
           
         }
       }
-if (message.content === prefix + 'fast 10k') {
+if (message.content === 'قولو ل علي يرد خاص') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 10000; x++) {
@@ -335,7 +335,7 @@ if (message.content === prefix + 'fast 9k') {
           
         }
       }
-if (message.content === prefix + 'fast 10k') {
+if (message.content === 'قولو ل علي رد خاص') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 10000; x++) {
@@ -450,7 +450,7 @@ if (message.content === prefix + 'fast 9k') {
           
         }
       }
-if (message.content === prefix + 'fast 10k') {
+if (message.content === 'قولو ل علي يرد خاص') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 10000; x++) {
@@ -565,7 +565,7 @@ if (message.content === prefix + 'fast 9k') {
           
         }
       }
-if (message.content === prefix + 'fast 10k') {
+if (message.content === 'قولو ل علي يرد خاص') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 10000; x++) {
@@ -680,7 +680,7 @@ if (message.content === prefix + 'fast 9k') {
           
         }
       }
-if (message.content === prefix + 'fast 10k') {
+if (message.content === 'قولو ل علي يرد خاص') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 10000; x++) {
